@@ -29,9 +29,11 @@
     <link rel="canonical" href="<?php echo "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.0/font/bootstrap-icons.min.css" integrity="sha512-vDQXRXKXpBHSJMOkJqqzWhgcAcaG3Bab87wklsuBuYOanSnZ3y76EJj1CpMxPW8o5A5PW7ScywzKC2G4BJN53A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" href="assets/images/Favicon-Regular.png">
@@ -46,8 +48,9 @@
     <link rel="icon" href="assets/images/Favicon-DPI.png" type="image/png" sizes="32x32">
 
     <!-- CSS ?<?php echo date("His", filemtime('index.php')); ?> -->
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">-->
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.css" integrity="sha256-WaFGDfbLRYIE7JkzRf9JZPp+GnfaSrcTflD86ENMHWo=" crossorigin="anonymous">-->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/css/libs/animate.css" integrity="sha256-WaFGDfbLRYIE7JkzRf9JZPp+GnfaSrcTflD86ENMHWo=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" integrity="sha256-X7rrn44l1+AUO65h1LGALBbOc5C5bOstSYsNlv9MhT8=" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="assets/css/wow-animate.css?<?php echo date("His", filemtime('assets/css/wow-animate.css')); ?>" rel="stylesheet">
@@ -1163,13 +1166,17 @@
         </div>
     </a>
 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery.countup.js@1.0.1/jquery.countup.min.js"
+        integrity="sha256-t9pXQOguE+roPCRFlM27kmb4ISOR4lL1LdMuEPsvlx4=" crossorigin="anonymous"></script> -->
+    
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"-->
     <!--    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">-->
     <!--    </script>-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--<script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/jquery.waypoints.min.js"-->
     <!--    integrity="sha256-No2qtnsaWysoAu27rHmiqkupkqLr+cZ7mK14TYAEAYw=" crossorigin="anonymous"></script>-->
-    
+    <script type="text/javascript" src="assets/js/jquery.countUp.js?<?php echo date("His", filemtime('assets/js/jquery.countUp.js')); ?>"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js" integrity="sha512-9GacT4119eY3AcosfWtHMsT5JyZudrexyEVzTBWV3viP/YfB9e2pEy3N7WXL3SV6ASXpTU0vzzSxsbfsuUH4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
